@@ -3,6 +3,7 @@ import Header from "./component/Header";
 import Footer from "./component/Footer";
 import Body from "./component/Body";
 function App() {
+    const [name,setName]= useState([]);
   return (
     <div className="Lotto">
       <Header />
