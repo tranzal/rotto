@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+html,body,#root{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    height: 10%;
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
+.title{
+    padding-top: 30px;
+}
+.footer{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 30px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+.body{
+    background-color: lightgrey;
+    text-align: center;
+    height: 80%;
+    overflow: auto;
+}
+
+.reset{
+    padding: 5px;
+    margin: 12px;
+}
+
+.person_table{
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.name_box{
+    padding: 10px;
+}
+
+.add {
+    background: deepskyblue;
+    height: 40px;
+    position: relative;
+    width: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.add:after {
+    background: deepskyblue;
+    content: "";
+    height: 10px;
+    left: -15px;
+    position: absolute;
+    top: 15px;
+    width: 40px;
+}
+
+.add_person{
+    text-align: center;
+}
